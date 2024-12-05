@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 16px;
+  gap: 4px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.status {
+  font-size: 12px;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
